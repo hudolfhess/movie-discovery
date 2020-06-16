@@ -1,0 +1,14 @@
+.app-discover-list h2 {
+    padding: 35px 35px 10px 35px;
+    font-size: 32px;
+    font-weight: 100;
+    color: tomato;
+}
+
+.app-discover-list .list {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px;
+}

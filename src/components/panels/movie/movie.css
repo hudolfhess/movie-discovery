@@ -1,0 +1,56 @@
+.app-movie-view {
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-movie-view .cover-image {
+  width: 30%;
+}
+
+.app-movie-view .cover-image img {
+  width: 100%;
+  height: auto;
+}
+
+.app-movie-view .details {
+  width: 68%;
+}
+
+.app-movie-view h3 {
+  color: darkorange;
+  font-size: 48px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.app-movie-view h3 .rating {
+  padding-left: 32px;
+  padding-right: 10px;
+  font-size: 18px;
+  color: silver;
+}
+
+.app-movie-view h3 .vote-average {
+  font-size: 22px;
+  font-weight: bold;
+  color: yellow;
+}
+
+.app-movie-view h3 .total-votes {
+  font-size: 14px;
+  color: silver;
+}
+
+.app-movie-view .description {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.app-movie-view .release-date {
+  color: silver;
+  font-size: 12px;
+  font-style: italic;
+  padding-bottom: 5px;
+}

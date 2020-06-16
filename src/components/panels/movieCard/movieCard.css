@@ -1,0 +1,52 @@
+.app-movie-card {
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.app-movie-card:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.app-movie-card .image {
+    display: block;
+    width: 30%;
+}
+
+.app-movie-card .image img {
+    width: 100%;
+    height: auto;
+}
+
+.app-movie-card .details {
+    width: 65%;
+}
+
+.app-movie-card .details .name {
+    color: darkorange;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.app-movie-card .details .description {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 15px;
+}
+
+.app-movie-card .details .release-date {
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+    text-align: right;
+}

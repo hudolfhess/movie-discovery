@@ -1,0 +1,24 @@
+.app-rating-stars {
+  color: black;
+  font-size: 18px;
+  display: inline;
+  margin-right: 20px;
+}
+
+.app-rating-stars span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: silver;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.app-rating-stars span:hover {
+  color: tomato;
+}
+
+.app-rating-stars .selected {
+  color: darkorange;
+}
